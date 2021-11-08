@@ -19,7 +19,6 @@ int main(){
                 printf(" %d",i);
             }
         }
-        printf("\n");
 
         printf("\nThe Palindromes are:");
         for (int i = first; i <= last; i++) {
