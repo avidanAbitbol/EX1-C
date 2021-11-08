@@ -4,7 +4,8 @@
 int main(){
    int x,y;
     printf("Enter 2 numbers");
-    scanf("%d%d",&x,&y);
+    scanf(" %d",&x);
+    scanf(" %d",&y);
         int first = x;
         int last = y;
    
