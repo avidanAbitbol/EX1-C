@@ -3,8 +3,8 @@
 #include "NumClass.h"
 int main(){
    int x,y;
-    scanf(" %d",&x);
-    scanf(" %d",&y);
+    scanf("%d",&x);
+    scanf("%d",&y);
         int first = x;
         int last = y;
    
