@@ -7,10 +7,13 @@ int main(){
     scanf("%d",&y);
         int first = x;
         int last = y;
-   
+   if(x>y){
+      int temp=y;
+      y=x;
+      x=temp;
         
         }
-   
+}
         printf("The Armstrong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isArmstrong(i)==1){
