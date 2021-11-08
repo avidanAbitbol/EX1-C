@@ -8,8 +8,7 @@ int main(){
         int first = x;
         int last = y;
    
-        if(first<=0||last<=0){
-           return 0;
+        
         }
    
         printf("The Armstrong numbers are:");
