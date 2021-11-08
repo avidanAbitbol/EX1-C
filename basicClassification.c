@@ -11,7 +11,7 @@ int Factorial(int num)
  int isStrong(int num){
     int fact;
     int sum=0;
-     if(num>0)
+     while(num>0)
      {
          fact=1;
          int rem=num%10;
