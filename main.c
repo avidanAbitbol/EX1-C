@@ -34,7 +34,7 @@ int main(){
         printf("\n");
 
 
-        printf("The Strong numbers are: ");
+        printf("The Strong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isStrong(i)==1){
                 printf(" %d",i);
