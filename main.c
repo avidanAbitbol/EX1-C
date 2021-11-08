@@ -4,10 +4,15 @@
 int main(){
    int x,y;
     printf("Enter 2 numbers");
-    scanf("%d%d",&y, &x);
+    scanf("%d",&x);
+    scanf("%d",&y);
         int first = x;
         int last = y;
-
+   
+        if(first<=0||last<=0){
+           return 0;
+        }
+   
         printf("The Armstrong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isArmstrong(i)==1){
@@ -16,25 +21,23 @@ int main(){
         }
         printf("\n");
 
-        printf("The Palindromes are:");
+        printf("\nThe Palindromes are:");
         for (int i = first; i <= last; i++) {
             if(isPalindrome(i)==1){
                 printf(" %d",i);
             }
         }
-        printf("\n");
 
 
-        printf("The Prime numbers are:");
+        printf("\nThe Prime numbers are:");
         for (int i = first; i <= last; i++) {
             if(isPrime(i)==1){
                 printf(" %d",i);
             }
         }
-        printf("\n");
 
 
-        printf("The Strong numbers are:");
+        printf("\nThe Strong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isStrong(i)==1){
                 printf(" %d",i);
