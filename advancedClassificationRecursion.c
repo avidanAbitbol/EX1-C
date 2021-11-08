@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#include <NumClass.h>
 
   int isPalindrome(int num){
         if(num<0) {return 0;}
