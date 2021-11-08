@@ -4,6 +4,7 @@ OBJECTS_MAIN = main.o
 OBJECTS_BASIC = basicClassification.o
 OBJECTS_REC = advancedClassificationRecursion.o
 OBJECTS_LOOP = advancedClassificationLoop.o
+OBJECTS_HEADER = NumClass.h
 FLAGS = -Wall -g
 
 all: mains maindloop maindrec loops loopd recursives recursived
