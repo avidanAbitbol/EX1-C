@@ -18,24 +18,27 @@ int main(){
                 printf(" %d",i);
             }
         }
-
-        printf("\nThe Palindromes are:");
+        printf("\n");
+   
+        printf("The Palindromes are:");
         for (int i = first; i <= last; i++) {
             if(isPalindrome(i)==1){
                 printf(" %d",i);
             }
         }
+        printf("\n");
 
 
-        printf("\nThe Prime numbers are:");
+        printf("The Prime numbers are:");
         for (int i = first; i <= last; i++) {
             if(isPrime(i)==1){
                 printf(" %d",i);
             }
         }
+        printf("\n");
 
 
-        printf("\nThe Strong numbers are:");
+        printf("The Strong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isStrong(i)==1){
                 printf(" %d",i);
