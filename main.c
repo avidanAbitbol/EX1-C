@@ -1,19 +1,14 @@
 #include <stdio.h>
-#include <math.h>
 #include "NumClass.h"
+
 int main(){
    int x,y;
-    scanf("%d",&x);
-    scanf("%d",&y);
-        int first = x;
-        int last = y;
-   if(x>y){
-      int temp=y;
-      y=x;
-      x=temp;
-        
-        }
+   scanf("%d %d", &x, &y);
+   if (x <= 0 || x <= 0) {
+        return 0;
+    }
 }
+
         printf("The Armstrong numbers are:");
         for (int i = first; i <= last; i++) {
             if(isArmstrong(i)==1){
