@@ -41,16 +41,16 @@ libclassrec.so: $(OBJECTS_REC) $(OBJECTS_BASIC)
 main.o: main.c NumClass.h
 	$(CC) $(FLAGS) -c main.c
 
-basicClassification.o: basicClassification.c NumClass.h
+basicClassification.o: basicClassification.c 
 	$(CC) $(FLAGS) -c basicClassification.c -lm
 
-advancedClassificationLoop.o: advancedClassificationLoop.c NumClass.h
+advancedClassificationLoop.o: advancedClassificationLoop.c 
 	$(CC) $(FLAGS) -c advancedClassificationLoop.c -lm
 
-advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
+advancedClassificationRecursion.o: advancedClassificationRecursion.c 
 	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
 	
-.PHONY: clean all  loops recursives loopd recursived
+.PHONY: clean all 
 
 clean: 
 	rm -f *.o *.a *.so mains maindloop maindrec
