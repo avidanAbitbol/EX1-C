@@ -4,7 +4,7 @@ OBJECTS_MAIN = main.o
 OBJECTS_BASIC = basicClassification.o
 OBJECTS_REC = advancedClassificationRecursion.o
 OBJECTS_LOOP = advancedClassificationLoop.o
-FLAGS = -Wall -g
+FLAGS = -Wall -Werror
 
 all: mains maindloop maindrec loops loopd recursives recursived
 
