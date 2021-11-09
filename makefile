@@ -39,15 +39,15 @@ libclassrec.so: $(OBJECTS_REC) $(OBJECTS_BASIC)
 	 $(CC) $(FLAGS) -shared -o libclassrec.so $(OBJECTS_REC) $(OBJECTS_BASIC) # creates dynamic library
 
 main.o: main.c NumClass.h
-	$(CC) $(FLAGS) -c main.c
+	$(CC) $(FLAGS) -c main.c $(OBJECTS_HEADER)
 
-basicClassification.o: basicClassification.c 
+basicClassification.o: basicClassification.c $(OBJECTS_HEADER)
 	$(CC) $(FLAGS) -c basicClassification.c -lm
 
-advancedClassificationLoop.o: advancedClassificationLoop.c 
+advancedClassificationLoop.o: advancedClassificationLoop.c $(OBJECTS_HEADER)
 	$(CC) $(FLAGS) -c advancedClassificationLoop.c -lm
 
-advancedClassificationRecursion.o: advancedClassificationRecursion.c 
+advancedClassificationRecursion.o: advancedClassificationRecursion.c $(OBJECTS_HEADER)
 	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
 	
 .PHONY: clean all 
