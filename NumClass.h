@@ -1,12 +1,12 @@
 #ifndef NumClass_H_
 #define NumClass_H_
-    int isArmstrong(int num);
+    int isArmstrong(int);
 
-    int isPalindrome(int num);
+    int isPalindrome(int);
     
-    int isPrime(int num);
+    int isPrime(int);
 
-    int isStrong(int num);
+    int isStrong(int);
 
     
 
