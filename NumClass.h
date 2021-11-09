@@ -1,5 +1,6 @@
-#ifndef NumClass_H_
-#define NumClass_H_
+#ifndef NUMCLASS_H
+#define NUMCLASS_H
+
     int isArmstrong(int);
 
     int isPalindrome(int);
