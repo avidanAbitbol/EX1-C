@@ -18,7 +18,8 @@
         }
         if(num==sum){
             return 1;
-        else return 0;}
+        }
+        else return 0;
     }
     int isPalindrome(int num) {
         int r, sum = 0, temp;
