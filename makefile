@@ -39,7 +39,7 @@ libclassrec.so: $(OBJECTS_REC) $(OBJECTS_BASIC)
 	 $(CC) $(FLAGS) -shared -o libclassrec.so $(OBJECTS_REC) $(OBJECTS_BASIC) # creates dynamic library
 
 main.o: main.c NumClass.h
-	$(CC) $(FLAGS) -c main.c $(OBJECTS_HEADER)
+	$(CC) $(FLAGS) -c main.c
 
 basicClassification.o: basicClassification.c $(OBJECTS_HEADER)
 	$(CC) $(FLAGS) -c basicClassification.c -lm
@@ -50,7 +50,7 @@ advancedClassificationLoop.o: advancedClassificationLoop.c $(OBJECTS_HEADER)
 advancedClassificationRecursion.o: advancedClassificationRecursion.c $(OBJECTS_HEADER)
 	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
 	
-.PHONY: clean all 
+.PHONY: clean all loops recursives loopd recursived
 
 clean: 
 	rm -f *.o *.a *.so mains maindloop maindrec
