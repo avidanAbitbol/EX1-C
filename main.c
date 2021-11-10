@@ -8,7 +8,6 @@ int main(){
    if (x <= 0 || x <= 0) {
         return 0;
     }
-}
 
         printf("The Armstrong numbers are:");
         for (int i = first; i <= last; i++) {
