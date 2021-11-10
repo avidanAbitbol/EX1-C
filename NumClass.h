@@ -4,16 +4,11 @@
 #include<stdlib.h>
 #include<math.h>
 
-    int isArmstrong(int x);
+int isArmstrong(int x);
 
-    int isPalindrome(int x);
+int isPalindrome(int x);
     
-    int isPrime(int x);
+int isPrime(int x);
 
-    int isStrong(int x);
-
-    
-
-    
-
+int isStrong(int x);
 #endif
