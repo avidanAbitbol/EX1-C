@@ -8,7 +8,6 @@ int Factorial(int num){
    return num*Factorial(num-1);
 }
 int isStrong(int num){
-    int fact;
     int sum=0;
     int newN = num;
     while(newN>0)
