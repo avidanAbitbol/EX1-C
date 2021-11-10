@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-#include <NumClass.h>
+#include "NumClass.h"
 
 int isPalindromeParse(int num)
 {
