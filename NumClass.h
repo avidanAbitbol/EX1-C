@@ -4,13 +4,13 @@
 #include<stdlib.h>
 #include<math.h>
 
-    int isArmstrong(int);
+    int isArmstrong(int x);
 
-    int isPalindrome(int);
+    int isPalindrome(int x);
     
-    int isPrime(int);
+    int isPrime(int x);
 
-    int isStrong(int);
+    int isStrong(int x);
 
     
 
