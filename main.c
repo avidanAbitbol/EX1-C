@@ -4,7 +4,7 @@
 
 int main(){
    int x,y;
-   scanf("%d %d", &x, &y);
+   scanf("%d%d", &x, &y);
    if (x <= 0 || x <= 0) {
         return 0;
     }
