@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <NumClass.h>
+#include "NumClass.h"
      int isArmstrong(int num){
         int temp, digits=0, last=0, sum=0;
         temp=num;
