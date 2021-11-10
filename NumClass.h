@@ -1,5 +1,5 @@
-#ifndef NUMCLASS_H
-#define NUMCLASS_H
+#ifndef NumClass_H_
+#define NumClass_H_
 
     int isArmstrong(int);
 
