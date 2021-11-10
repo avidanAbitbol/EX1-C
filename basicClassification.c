@@ -22,7 +22,7 @@ int isStrong(int num){
      }
 int isPrime(int num){
         int ans;
-        if(num==1){ans=0;}
+        if(num==1){ans=1;}
         if(num==2){ans=1;}
         if(num==3){ans=1;}
         else {
