@@ -2,12 +2,23 @@
 #include <stdio.h>
 #include "NumClass.h"
 
+int reverse(int x)
+{
+
+    int digit = (int)log10(x);
+
+    if (x == 0)
+        return 0;
+
+    return ((x % 10 * pow(10, digit)) + reverse(x / 10));
+}
+
 int isPalindromeParse(int num)
 {
     int dig = (int)log10(num);
     if(num == 0)
         return 0;
-    return ((num%10 * pow(10, digit)) + reverse(num/10));
+    return ((num%10 * pow(10, dig)) + reverse(num/10));
 }
 int isPalindrome(int num)
 {
@@ -36,3 +47,4 @@ int isPalindrome(int num)
             return 1;
         else return 0;
     }
+
